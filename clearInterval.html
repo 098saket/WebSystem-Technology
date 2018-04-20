@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+   var t;
+  function fun1()
+  {
+    
+  }
+  function fun2()
+  {
+     clearInterval(t);
+  }
+  function getTime()
+  {
+    documnet.getElementById("demo").innerHTML = new Date();
+  }
+
+</script>
+</head>
+
+<body>
+
+<p id="demo"> </p>
+<input type="button" value="Start Clock" onclick="fun1()"> <br>
+<input type="button" value="Stop Clock" onclick="fun2()"> <br>
+
+</body>
+</html>
