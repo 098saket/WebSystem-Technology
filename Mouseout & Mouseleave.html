@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#p1").mouseover(function(){
+        $("#p1").css("background-color", "yellow");
+    });
+    $("#p1").mouseout(function(){
+        $("#p1").css("background-color", "lightgray");
+    });
+    $(".di1").mouseenter(function(){
+        $(".di1").css("background-color", "red");
+    });
+    $(".di1").mouseleave(function(){
+        $(".di1").css("background-color", "white");
+    });
+});
+</script>
+</head>
+<body>
+
+<h1 id="p1">Move the mouse pointer over this paragraph.</h1>
+
+<div class="di1">Move the mouse pointer over this paragraph.</div>
+
+</body>
+</html>
